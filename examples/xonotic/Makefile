@@ -28,7 +28,7 @@ REPOSITORY = registry.ghama.io/agones
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
 project_path := $(dir $(mkfile_path))
 agones_path := $(realpath $(project_path)/../..)
-image_tag = $(REPOSITORY)/xonotic-example:0.2.1
+image_tag = $(REPOSITORY)/xonotic-example:0.2.2
 
 #   _____                    _
 #  |_   _|_ _ _ __ __ _  ___| |_ ___
