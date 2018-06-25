@@ -34,4 +34,4 @@ spec:
         spec:
           containers:
           - name: xonotic
-            image: registry.ghama.io/agones/xonotic-example:0.2
+            image: registry.ghama.io/agones/xonotic-example:0.2.1
