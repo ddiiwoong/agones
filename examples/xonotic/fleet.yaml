@@ -16,6 +16,7 @@
 # directly. This is here mostly for testing purposes
 
 apiVersion: "stable.agones.dev/v1alpha1"
+Namespace: default
 kind: Fleet
 metadata:
   name: xonotic
